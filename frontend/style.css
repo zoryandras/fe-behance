@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+
+  /* a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  } */
+
+  
+/* Background stretching for the main page */
+
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+    width: 100%;
+    z-index:-1;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+/* Background stretching for the main page */
+
+/* Navigation bar css*/
+
+#navigationbar {
+    display: flex;
+    list-style-type: none;
+    margin:20px;
+    margin-right: 100px;
+    padding:0;
+    font-family: "KenyanCoffee";
+    font-size: 35px;
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    float: right;
+}
+
+#navigationbar li{
+    display: inline;
+}
+
+#navigationbar li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin-right: 50px;
+    float: right;
+}
+
+#navigationbar li a:hover{
+    color: #F6EAC9;
+}
+
+/* Navigation bar css*/
+
+/*LOGO upper left*/
+
+#logo {
+    font-family: "FreestyleScript";
+    font-size: 70px;
+    text-decoration: none;
+    color:#F6EAC9;
+    display: flex;
+    padding: 20px 20px;
+    margin-left:100px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #F6EAC9;
+    margin-left:100px;
+}
+
+.bean {
+    padding: 5px;
+    display: inline;
+    margin-top: 20px;
+    color:#F6EAC9;
+}
+
+/*LOGO upper left*/
+
+/* Pumpkin spice on the left */
+
+.lefttext {
+    float: left;
+    top: 50%;
+    font-family: "Kabel";
+    font-size: 30px;
+    margin-left:100px;
+    transform: rotate(-90deg);
+    color: rgb(255, 255, 255);
+}
